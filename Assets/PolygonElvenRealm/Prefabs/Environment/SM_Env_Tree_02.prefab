@@ -31,37 +31,37 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6378626e09e43924dab83748d84adc5d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 119.13
+      value: 34.17
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6378626e09e43924dab83748d84adc5d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -73.27
+      value: -24.45
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6378626e09e43924dab83748d84adc5d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.46
+      value: 34.19
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6378626e09e43924dab83748d84adc5d,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.19149444
+      value: 0.97281873
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6378626e09e43924dab83748d84adc5d,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0000000013753807
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6378626e09e43924dab83748d84adc5d,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.9814938
+      value: -0.23156807
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6378626e09e43924dab83748d84adc5d,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000012560962
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6378626e09e43924dab83748d84adc5d,
         type: 3}
@@ -71,7 +71,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6378626e09e43924dab83748d84adc5d,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -202.08
+      value: -26.779
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6378626e09e43924dab83748d84adc5d,
         type: 3}
@@ -82,7 +82,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 62c86c3137730aa4f81d8a05bf9e5a7d, type: 2}
+      objectReference: {fileID: 2100000, guid: c6ce0d4b734e7964db80150461788a37, type: 2}
+    - target: {fileID: -5754084199372789682, guid: 6378626e09e43924dab83748d84adc5d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 568b8eec3829e724bb88b97b53f8a670, type: 2}
     - target: {fileID: 919132149155446097, guid: 6378626e09e43924dab83748d84adc5d,
         type: 3}
       propertyPath: m_Name
@@ -105,17 +110,7 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 8527993928630281975}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6378626e09e43924dab83748d84adc5d,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6820833052176555195}
   m_SourcePrefab: {fileID: 100100000, guid: 6378626e09e43924dab83748d84adc5d, type: 3}
---- !u!23 &8050828244309631141 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 6378626e09e43924dab83748d84adc5d,
-    type: 3}
-  m_PrefabInstance: {fileID: 8681774615407852577}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8411235168277119344 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6378626e09e43924dab83748d84adc5d,
@@ -166,22 +161,3 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 5020724086649827354, guid: e9ceba61c1af8064699d17e8d2f8365a, type: 2}
---- !u!205 &6820833052176555195
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8411235168277119344}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: -0.15766048, y: 7.4370837, z: -0.101389885}
-  m_Size: 15.837884
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.18396014
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 8050828244309631141}
-  m_Enabled: 1

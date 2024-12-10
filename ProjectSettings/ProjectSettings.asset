@@ -142,6 +142,8 @@ PlayerSettings:
   bundleVersion: OVRTransitionAPKVersion
   preloadedAssets:
   - {fileID: 11400000, guid: b82a979e2093203459bf8daab0b23b52, type: 2}
+  - {fileID: 426862772378535543, guid: 135e28ad4838ffe488f0d92c8de4fa7b, type: 2}
+  - {fileID: 11400000, guid: 7f2de5b7f3b752c4ba8ec6bfbff19245, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -919,11 +921,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 799e5fd9-6483-47ea-9163-45858d0b82ee
+  cloudProjectId: c63b8bba-a1ea-434b-b4bf-3fa61183239c
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Archer_VR
-  organizationId: danu-danu
+  organizationId: unity_b4097e9edfc66f943534
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

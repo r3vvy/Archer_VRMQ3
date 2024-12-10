@@ -11,6 +11,7 @@ public class TargetHandle : MonoBehaviour
     public Action OnUpdateScore;
     [HideInInspector] public Transform[] PointsToMove;
     [SerializeField] private ParticleSystem _impactFX;
+    [SerializeField] private bool _lookAtTarget = false;
     private int _pointIndex = 0;
     private Transform _currentPoint;
     private Rigidbody _rb;
@@ -46,6 +47,8 @@ public class TargetHandle : MonoBehaviour
     {
         _currentPoint = PointsToMove[_pointIndex];
         _pointIndex = (_pointIndex + 1) % PointsToMove.Length;
+        if (_lookAtTarget)
+            transform.LookAt(_currentPoint.position,Vector3.up);
     }
     private void OnCollisionEnter(Collision collision)
     {
